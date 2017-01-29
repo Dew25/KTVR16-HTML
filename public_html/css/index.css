@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29.01.2017, 22:58:30
+    Author     : jvm
+*/
+body{
+    margin: 0;
+}
+.container{
+    position: relative;
+    width: 1200px;
+    margin:0 auto;
+    background: blueviolet;
+    overflow: hidden
+}
+#header{
+
+    background: burlywood;
+    text-align: center;
+    padding:50px;
+    
+}
+#wrapper-outer{
+    position: relative;
+    float:left;
+    width: 100%;
+    overflow: hidden;
+    background: antiquewhite;
+}
+#wrapper-inner{
+    float:left;
+    width:50%;
+    background: aliceblue;
+    position: relative;
+    left:50%;
+}
+
+#left-box{
+    float: left;
+    width: 50%;
+    position: relative;
+    left: -100%;
+}
+#right-box{
+    float: right;
+    width: 50%;
+    position: relative;
+    left: -50%;
+}
+
+#footer{
+    clear: both;
+    display: block;
+    background: burlywood;
+    padding: 50px;
+    text-align: center;
+}
+
+.line-input{
+    display: block;
+    width: 200%;
+    text-align: right;
+    
+}
+.line-input>input{
+    padding: 0;
+    margin: 2px;
+}
+#input-name{
+    width: 200px;
+    margin-right:100px;
+    
+}
+#input-surname{
+    width: 300px;
+    
+    
+}
+.list-users{
+    width: 100%;
+    padding: 4px 10px;
+}
+#checkbox-first{
+    margin: 10px;
+}
